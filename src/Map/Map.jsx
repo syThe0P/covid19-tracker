@@ -43,7 +43,7 @@ const Map = ({data}) => {
     
       const stateData = {};
     
-    // Loop through the regional data from the API and map it to state codes
+    
     data?.forEach((state) => {
       const stateCode = stateCodeMap[state.loc];
       stateData[stateCode] = state.confirmedCasesIndian;
@@ -79,7 +79,7 @@ const getdata = (key) => {
           width: "100%",
           height: "550px",
         }}
-        onRegionClick={(e, countryCode) => console.log(countryCode)} // gets the country code
+        onRegionClick={(e, countryCode) => console.log(countryCode)}
         onRegionTipShow={handleshow2}
         containerClassName="map"
         regionStyle={{
@@ -95,7 +95,7 @@ const getdata = (key) => {
             cursor: "pointer",
           },
           selected: {
-            fill: "#2938bc", // onclick colour of state
+            fill: "#2938bc", 
           },
         }}
         regionsSelectable={false}
@@ -103,7 +103,7 @@ const getdata = (key) => {
             regions: [
               {
                 values: stateData,
-                scale: ["#C8EEFF", "#0071A4"], // color range
+                scale: ["#C8EEFF", "#0071A4"], 
                 normalizeFunction: "polynomial",
               },
             ],

@@ -3,7 +3,6 @@
 
 }
 body{
-  /* background-color: #F0F8FF; */
   background-color: whitesmoke;
 }
 
@@ -24,7 +23,7 @@ body{
   display: flex;
   justify-content: space-evenly;
 
-  /* flex-direction: row; */
+
 }
 .app_left{
   width: 50%;

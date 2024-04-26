@@ -1,5 +1,5 @@
 .scrollable-table {
-  max-height: 55vh; /* Adjust as needed */
+  max-height: 55vh;
   overflow-y: auto;
 }
 
@@ -19,6 +19,6 @@
   padding: 20px;
   position: sticky;
   top: 0;
-  background-color: white; /* Ensure background remains white */
+  background-color: white; 
   z-index: 1;
 }

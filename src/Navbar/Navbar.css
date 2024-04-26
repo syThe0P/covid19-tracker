@@ -4,11 +4,11 @@
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Add box shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
   }
   
   .navbar-logo {
-    width: 60px; /* Adjust according to your logo size */
+    width: 60px; 
     height: auto;
   }
   
