@@ -20,7 +20,7 @@ const Table = ({ data }) => {
           {regionalData.map((state) => (
             <tr key={state.loc}>
               <td>{state.loc}</td>
-              <td>{state.totalConfirmed}</td>
+              <td>{state.confirmedCasesIndian}</td>
               <td>{state.totalConfirmed - state.discharged - state.deaths}</td>
               <td>{state.discharged}</td>
               <td>{state.deaths}</td>

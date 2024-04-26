@@ -1,5 +1,17 @@
 .chart-container{
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    height: 200px;
+}
+
+.pie-chart{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.line-chart{
+    display: flex;
+    width: 50%;
+    align-items: center;
 }
